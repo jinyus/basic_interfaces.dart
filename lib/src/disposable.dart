@@ -1,5 +1,3 @@
-import 'package:meta/meta.dart';
-
 /// An abstract class that provides a contract for disposing resources.
 ///
 /// Classes that implement `Disposable` should override the `dispose` method
@@ -8,7 +6,6 @@ import 'package:meta/meta.dart';
 /// applications.
 abstract class Disposable {
   /// Releases or cleans up resources used by the object.
-  @mustCallSuper
   void dispose();
 }
 
@@ -20,6 +17,5 @@ abstract class Disposable {
 /// without requiring inheritance from a common base class.
 mixin DisposableMixin implements Disposable {
   @override
-  @mustCallSuper
   void dispose();
 }
