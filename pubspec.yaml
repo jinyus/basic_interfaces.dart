@@ -1,7 +1,7 @@
 name: basic_interfaces
 description: A tiny collection of basic interfaces.
 version: 1.0.0
-repository: https://github.com/jinyus/dart_basic_interfaces
+repository: https://github.com/jinyus/basic_interfaces.dart
 
 environment:
     sdk: "^3.0.0"
