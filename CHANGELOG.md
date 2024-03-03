@@ -1,3 +1,7 @@
+# 1.0.4
+
+-   Update README.md
+
 # 1.0.3
 
 -   Remove `DisposableMixin` class as `Disposable` is now a mixin class.
